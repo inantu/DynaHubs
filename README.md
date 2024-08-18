@@ -15,3 +15,4 @@ RIN depends on protein topology. Accordingly, centrality measurements play a ver
 The shortest number of routes between nodes i and j is denoted by σ<sub>ij </sub>, while the shortest number of routes that traverse node l is denoted by σ<sub>ij</sub>(l). High betweenness hub residue regions (top 5% of C<sub>B</sub>) are considered as allosteric locations that may be assessed as potential drug target regions.
 
 ### DynaHubs Architecture
+![image](https://github.com/user-attachments/assets/d892a257-68fa-4ad6-928b-f023e28a57e6)
