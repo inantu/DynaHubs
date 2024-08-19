@@ -1,8 +1,8 @@
 # DynaHubs
-DynaHubs reveals critical residues and their frequency of occurrence that contribute to allosteric communication throughout the MD simulation. DynaHubs computes the contact topology for every frame produced along the Md and identifies the residues with a betweenness value in the top 5%. This calculation determines the frequency of high betweenness residues over the whole molecular dynamics simulation for each frame. 
+DynaHubs reveals critical residues and their frequency of occurrence that contribute to allosteric communication throughout the MD simulation. DynaHubs computes the contact topology for every frame produced along the MD and identifies the residues with a betweenness value in the top 5%. This calculation determines the frequency of high betweenness residues over the whole molecular dynamics simulation for each frame. 
 
 ### Background
-DynaHubs utilizes Residue Interaction Network (RIN) to identify hub rezidues. Using a bidirectional graph to characterize the contact topology, RIN can pinpoint allosteric residues/regions of a protein complex. According to RIN, the protein structure is a network with nodes connected by edges. The local interaction magnitude a<sub>ij </sub>between adjacent residue pairs (i, j) determines the lengths of the edges.
+DynaHubs utilizes Residue Interaction Network (RIN) to identify hub rezidues. Using a bidirectional graph to characterize the contact topology, RIN can pinpoint allosteric residues/regions of a protein complex [referece 1] (https://journals.tubitak.gov.tr/biology/vol42/iss5/3/) . According to RIN, the protein structure is a network with nodes connected by edges. The local interaction magnitude a<sub>ij </sub>between adjacent residue pairs (i, j) determines the lengths of the edges.
 
 ![aij](https://github.com/user-attachments/assets/8b7efb6c-3bb9-4ffa-b053-156a3ac2938d)
 
@@ -12,14 +12,17 @@ RIN depends on protein topology. Accordingly, centrality measurements play a ver
 
 ![cb](https://github.com/user-attachments/assets/49dd7c69-2630-4882-954a-907ae0436102)
 
-The shortest number of routes between nodes i and j is denoted by σ<sub>ij </sub>, while the shortest number of routes that traverse node l is denoted by σ<sub>ij</sub>(l). High betweenness hub residue regions (top 5% of C<sub>B</sub>) are considered as allosteric locations that may be assessed as potential drug target regions.
+The shortest number of routes between nodes i and j is denoted by σ<sub>ij </sub>, while the shortest number of routes that traverse node l is denoted by σ<sub>ij</sub>(l). High betweenness hub residue regions (top 5% of C<sub>B</sub>) are considered as allosteric locations that may be assessed as potential drug target regions [reference 2] (https://pubs.acs.org/doi/10.1021/acs.jpcb.4c00925).
 
 ### DynaHubs Architecture
-![image](https://github.com/user-attachments/assets/d892a257-68fa-4ad6-928b-f023e28a57e6)
+
+![image](https://github.com/user-attachments/assets/efc20187-3b86-4fe3-a435-1cc19ee3420b)
+
 
 ## Usage 
 ### System Dependencies
 - python3 (3.8 or higher)
+- ipkernel
 ### Python Dependencies
 - csv
 - glob
