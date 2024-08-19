@@ -16,3 +16,16 @@ The shortest number of routes between nodes i and j is denoted by σ<sub>ij </su
 
 ### DynaHubs Architecture
 ![image](https://github.com/user-attachments/assets/d892a257-68fa-4ad6-928b-f023e28a57e6)
+
+## Usage 
+### System Dependencies
+- python3 (3.8 or higher)
+### Python Dependencies
+- csv
+- glob
+- itertools
+- matplotlib.pyplot as plt
+- mdanalysis
+- networkx
+- numpy 
+
