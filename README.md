@@ -2,7 +2,7 @@
 DynaHubs reveals critical residues and their frequency of occurrence that contribute to allosteric communication throughout the MD simulation. DynaHubs computes the contact topology for every frame produced along the MD and identifies the residues with a betweenness value in the top 5%. This calculation determines the frequency of high betweenness residues over the whole molecular dynamics simulation for each frame. 
 
 ### Background
-DynaHubs utilizes Residue Interaction Network (RIN) to identify hub rezidues. Using a bidirectional graph to characterize the contact topology, RIN can pinpoint allosteric residues/regions of a protein complex [referece 1] (https://journals.tubitak.gov.tr/biology/vol42/iss5/3/) . According to RIN, the protein structure is a network with nodes connected by edges. The local interaction magnitude a<sub>ij </sub>between adjacent residue pairs (i, j) determines the lengths of the edges.
+DynaHubs utilizes Residue Interaction Network (RIN) to identify hub rezidues. Using a bidirectional graph to characterize the contact topology, RIN can pinpoint allosteric residues/regions of a protein complex [reference 1] (https://journals.tubitak.gov.tr/biology/vol42/iss5/3/) . According to RIN, the protein structure is a network with nodes connected by edges. The local interaction magnitude a<sub>ij </sub>between adjacent residue pairs (i, j) determines the lengths of the edges.
 
 ![aij](https://github.com/user-attachments/assets/8b7efb6c-3bb9-4ffa-b053-156a3ac2938d)
 
