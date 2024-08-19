@@ -24,7 +24,6 @@ The shortest number of routes between nodes i and j is denoted by σ<sub>ij </su
 - python3 (3.8 or higher)
 - ipkernel
 ### Python Dependencies
-- csv
 - glob
 - itertools
 - matplotlib.pyplot as plt
