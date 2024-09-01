@@ -31,3 +31,8 @@ The shortest number of routes between nodes i and j is denoted by σ<sub>ij </su
 - networkx
 - numpy 
 
+## Run from terminal
+```
+python dynahubs.py --pdb  --dcd  --stride 10 --top_betweenness 5
+
+```
