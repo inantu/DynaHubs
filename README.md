@@ -31,6 +31,17 @@ The shortest number of routes between nodes i and j is denoted by σ<sub>ij </su
 - networkx
 - numpy 
 
+## Installation
+
+**We recommend you use [git](https://git-scm.com/downloads) clone instead of download with .zip while installing the package. 
+
+### Clone the repository
+```
+git clone https://github.com/inantu/DynaHubs.git
+```
+```
+cd DynaHubs
+```
 ## Run from terminal
 ```
 python dynahubs.py --pdb  --dcd  --stride 10 --top_betweenness 5
